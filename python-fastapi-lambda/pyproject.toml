@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-fastapi-lambda"
+version = "0.1.0"
+description = ""
+authors = ["y"]
+readme = "README.md"
+packages = [{include = "python_fastapi_lambda"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.98.0"
+mangum = "^0.17.0"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
